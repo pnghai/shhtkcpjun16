@@ -1,0 +1,34 @@
+/// `Prefix Mixin`
+/// helps in creating prefixed properties.
+///
+/// @author Sebastian Fitzner
+///
+/// @group Helpers: Prefix
+///
+/// @param {String} $property - Property which should be prefixed.
+/// @param {String} $value - Value of property.
+///
+///
+/// @example
+///   @include prefix('transform', translateY(100%));
+///
+
+@mixin prefix($property, $value) {
+	@if $veams-webkit == true {
+		-webkit-#{$property}: #{$value};
+	}
+
+	@if $veams-moz == true {
+		-moz-#{$property}: #{$value};
+	}
+
+	@if $veams-ms == true {
+		-ms-#{$property}: #{$value};
+	}
+
+	@if $veams-o == true {
+		-o-#{$property}: #{$value};
+	}
+
+	#{$property}: #{$value};
+}

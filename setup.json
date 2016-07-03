@@ -1,0 +1,52 @@
+{
+  "generator-veams": {
+    "projectName": "shh-tiki",
+    "projectAuthor": "pnghai",
+    "taskRunner": [
+      "grunt"
+    ],
+    "templateEngine": "mangony",
+    "mangonyExpress": false,
+    "installExtendedLayout": false,
+    "installPlugin": false,
+    "gulpModules": [],
+    "gruntModules": [
+      "grunt-accessibility",
+      "grunt-autoprefixer",
+      "grunt-bless",
+      "grunt-browser-sync",
+      "grunt-browserify",
+      "grunt-combine-mq",
+      "grunt-contrib-uglify",
+      "grunt-csscomb",
+      "grunt-dr-svg-sprites",
+      "grunt-image-size-export",
+      "grunt-includes",
+      "grunt-photobox",
+      "grunt-postcss-separator",
+      "grunt-responsive-images",
+      "grunt-version",
+      "grunt-contrib-handlebars",
+      "grunt-browserify",
+      "grunt-contrib-uglify"
+    ],
+    "features": [
+      "createDevFolder"
+    ],
+    "jsLibs": [
+      "jquery",
+      "exoskeleton"
+    ],
+    "cssLibs": [
+      "bootstrap-sass"
+    ],
+    "testAndQA": false,
+    "testAndQALibs": [],
+    "veamsPackages": [
+      "veamsMethodology",
+      "veamsSCSS",
+      "veamsJS"
+    ],
+    "docs": []
+  }
+}

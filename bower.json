@@ -1,0 +1,9 @@
+{
+    "version": "0.1.0",
+    "dependencies": {
+        "bootstrap-sass": "~3.3.5",
+        "veams-js": "~3.0.0",
+        "veams-sass": "~2.0.3"
+    },
+    "name": "shh-tiki"
+}

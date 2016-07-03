@@ -1,0 +1,23 @@
+{
+	"name": "veams-sass",
+	"version": "2.0.3",
+	"ignore": [
+		".bowerrc",
+		".gitignore",
+		"bower.json",
+		"Gruntfile.js",
+		"package.json",
+		"README.md"
+	],
+	"dependencies": {},
+	"authors": [
+		{
+			"name": "Sebastian Fitzner",
+			"email": "sebastian@jci-werbeagentur.com"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/Sebastian-Fitzner/veams-sass.git"
+	}
+}

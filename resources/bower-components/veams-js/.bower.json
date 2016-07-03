@@ -1,0 +1,29 @@
+{
+  "name": "veams-js",
+  "version": "3.0.11",
+  "ignore": [
+    "demo",
+    ".gitignore",
+    "bower.json"
+  ],
+  "authors": [
+    {
+      "name": "Sebastian Fitzner",
+      "email": "sebastian@jci-werbeagentur.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Sebastian-Fitzner/veams-js.git"
+  },
+  "homepage": "https://github.com/Sebastian-Fitzner/veams-js",
+  "_release": "3.0.11",
+  "_resolution": {
+    "type": "version",
+    "tag": "v3.0.11",
+    "commit": "862ab2ea0e99b0fa1e36fb9db9ff0207f3f09aa5"
+  },
+  "_source": "https://github.com/Sebastian-Fitzner/veams-js.git",
+  "_target": "~3.0.0",
+  "_originalSource": "veams-js"
+}
