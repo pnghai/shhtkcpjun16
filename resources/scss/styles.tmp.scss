@@ -39,8 +39,13 @@ Main File For Imports
 
 
 // Blocks
+@import "blocks/_b-about";
 @import "blocks/_b-author";
+@import "blocks/_b-featured";
 @import "blocks/_b-introduction";
+@import "blocks/_b-testimonials";
+@import "blocks/_b-tiki";
+@import "blocks/_helper";
 
 // Print
 @import "global/_print";

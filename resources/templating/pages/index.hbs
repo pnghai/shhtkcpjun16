@@ -7,7 +7,9 @@ sortOrder: 01
 {{#extend "lyt-default"}}
 	{{#content "main"}}
 		<header>
-
+            {{#block "b-tiki"}}
+                {{> b-tiki }}
+            {{/block}}
         </header>
         <main>
             {{#block "b-introduction"}}
@@ -16,11 +18,15 @@ sortOrder: 01
             {{#block "b-author"}}
                 {{> b-author }}
             {{/block}}
-            <section class="container-fluid">
-                <div class="row">
-                    <div class=""></div>
-                </div>
-            </section>
+            {{#block "b-featured"}}
+                {{> b-featured }}
+            {{/block}}
+            {{#block "b-testimonials"}}
+                {{> b-testimonials }}
+            {{/block}}
+            {{#block "b-about"}}
+                {{> b-about }}
+            {{/block}}
         </main>
         <footer>
 
