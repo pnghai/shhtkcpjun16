@@ -109,7 +109,7 @@ module.exports = function(grunt) {
 		'sass:dev',
 		'sass:universal',
 		'combine_mq',
-		'postcssSeparator',
+		//'postcssSeparator',
 		'postcss:dist',
 		'cssmin',
 		'bless',
