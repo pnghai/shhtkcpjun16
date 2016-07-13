@@ -1,8 +1,47 @@
-.b-testimonials{
-  background: #161616;
-  color:#fff;
-  h2{font-size:30px}
-  .quote{font-size:23.5px}
-  h2,.quote{text-shadow: -2px 3px 4.5px rgba(0, 0, 0, 0.75);}
-  .reviewer{text-transform: uppercase}
+.b-testimonials {
+	color: #fff;
+	background: #161616;
+	.row {
+		padding: 8.515625vw 0 8.12500vw;
+	}
+	h2 {
+		font-size: 30px;
+
+		margin: 0 0 6.1328125vw;
+	}
+	.quote {
+		font-size: 23.5px;
+		font-weight: 500;
+		line-height: 1.57;
+
+		margin-bottom: 40px;
+
+		letter-spacing: -0.5px ;
+	}
+	h2,
+	.quote {
+		text-shadow: -2px 3px 4.5px rgba(0, 0, 0, 0.75);
+	}
+	.amazon-logo {
+		img {
+			width: auto;
+			height: 250px;
+			margin: 0 auto;
+		}
+	}
+	.reviewer {
+		margin: 15px 0 25px;
+
+		text-transform: uppercase;
+	}
+	.separator {
+		width: 2.734375vw;
+		margin: 0 auto;
+		hr {
+			border-top: 1px solid #fff;
+		}
+	}
+	.nav-control {
+		margin-top: 26px;
+	}
 }

@@ -9,8 +9,10 @@ Main File For Imports
 // Global Variables and Settings
 @import "global/_vars";
 @import "../bower-components/veams-sass/resources/scss/veams";
-  
+
 @import "../bower-components/bootstrap-sass/assets/stylesheets/bootstrap"; // You can choose your specific components
+@import "../bower-components/owl.carousel/src/scss/owl.carousel.scss";
+@import "../bower-components/owl.carousel/src/scss/owl.theme.default.scss";
 
 // Icons
 @import "icons/**/*";

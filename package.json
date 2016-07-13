@@ -1,7 +1,7 @@
 {
     "name": "shh-tiki",
     "description": "Custom project description",
-    "version": "0.0.1",
+    "version": "0.0.7",
     "author": {"name":"pnghai"},
     "engines": {
         "node": ">=0.12.0"
