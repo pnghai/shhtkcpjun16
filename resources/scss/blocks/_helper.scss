@@ -1,5 +1,5 @@
 .matb18 {
-	margin: 18px 0;
+	padding: 18px 0;
 }
 .btn-cta {
 	font-size: 17px;
@@ -32,4 +32,25 @@
 	float: none;
 
 	margin: 0 auto;
+}
+.no-padding {
+	padding: 0;
+}
+.valign {
+	display: flex;
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;      /* TWEENER - IE 10 */
+	display: -webkit-flex;
+	flex-direction: row;
+	> [class*="col-sm"] {
+		display: flex;
+		display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+		display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+		display: -ms-flexbox;      /* TWEENER - IE 10 */
+		display: -webkit-flex;
+
+		align-items: center;
+		justify-content: center;
+	}
 }

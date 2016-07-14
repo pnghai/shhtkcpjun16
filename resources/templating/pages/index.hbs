@@ -6,7 +6,7 @@ sortOrder: 01
 
 {{#extend "lyt-default"}}
 	{{#content "main"}}
-		<header>
+		<header class="wrap-header affix-top">
             {{#block "b-tiki"}}
                 {{> b-tiki }}
             {{/block}}
@@ -28,7 +28,8 @@ sortOrder: 01
                 {{> b-about }}
             {{/block}}
         </main>
-        <footer>
+
+        <footer class="wrap-footer">
             {{#block "b-tiki-footer"}}
                 {{> b-tiki-footer }}
             {{/block}}

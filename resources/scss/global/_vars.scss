@@ -16,5 +16,17 @@ BOOTSTRAP SETTINGS
 // The settings can be found here:
 // ../../bower-components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss
 // Just copy and paste the things you need
-
-
+//** Padding between columns. Gets divided in half for the left and right.
+$grid-gutter-width: 30px;
+// Small screen / tablet
+$container-tablet: (675px + $grid-gutter-width);
+// Medium screen / desktop
+$container-desktop: (882px + $grid-gutter-width);
+// Large screen / wide desktop
+$container-large-desktop: (1070px + $grid-gutter-width);
+$retina-screen: "only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx)";

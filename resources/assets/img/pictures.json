@@ -1,1 +1,270 @@
-[]
+[
+  {
+    "pictures": [
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/bg-airplane-1024",
+        "name": "bg-airplane-1024.jpg",
+        "width": 1440,
+        "height": 556,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/bg-airplane-1024.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/bg-airplane-1280_2x",
+        "name": "bg-airplane-1280_2x.jpg",
+        "width": 2560,
+        "height": 988,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/bg-airplane-1280_2x.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/bg-airplane-1280",
+        "name": "bg-airplane-1280.jpg",
+        "width": 1280,
+        "height": 494,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/bg-airplane-1280.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/bg-airplane-320_2x",
+        "name": "bg-airplane-320_2x.jpg",
+        "width": 640,
+        "height": 247,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/bg-airplane-320_2x.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/bg-airplane-320",
+        "name": "bg-airplane-320.jpg",
+        "width": 320,
+        "height": 124,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/bg-airplane-320.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/bg-airplane-480_2x",
+        "name": "bg-airplane-480_2x.jpg",
+        "width": 960,
+        "height": 371,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/bg-airplane-480_2x.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/bg-airplane-480",
+        "name": "bg-airplane-480.jpg",
+        "width": 479,
+        "height": 185,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/bg-airplane-480.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/bg-airplane-640_2x",
+        "name": "bg-airplane-640_2x.jpg",
+        "width": 1280,
+        "height": 494,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/bg-airplane-640_2x.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/bg-airplane-640",
+        "name": "bg-airplane-640.jpg",
+        "width": 640,
+        "height": 247,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/bg-airplane-640.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/bg-airplane-768_2x",
+        "name": "bg-airplane-768_2x.jpg",
+        "width": 1920,
+        "height": 741,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/bg-airplane-768_2x.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/bg-airplane-768",
+        "name": "bg-airplane-768.jpg",
+        "width": 960,
+        "height": 371,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/bg-airplane-768.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/cp-book-cover-1024",
+        "name": "cp-book-cover-1024.jpg",
+        "width": 811,
+        "height": 991,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/cp-book-cover-1024.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/cp-book-cover-1280_2x",
+        "name": "cp-book-cover-1280_2x.jpg",
+        "width": 838,
+        "height": 1039,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/cp-book-cover-1280_2x.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/cp-book-cover-1280",
+        "name": "cp-book-cover-1280.jpg",
+        "width": 838,
+        "height": 1039,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/cp-book-cover-1280.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/cp-book-cover-320_2x",
+        "name": "cp-book-cover-320_2x.jpg",
+        "width": 640,
+        "height": 782,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/cp-book-cover-320_2x.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/cp-book-cover-320",
+        "name": "cp-book-cover-320.jpg",
+        "width": 320,
+        "height": 391,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/cp-book-cover-320.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/cp-book-cover-480_2x",
+        "name": "cp-book-cover-480_2x.jpg",
+        "width": 811,
+        "height": 991,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/cp-book-cover-480_2x.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/cp-book-cover-480",
+        "name": "cp-book-cover-480.jpg",
+        "width": 480,
+        "height": 587,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/cp-book-cover-480.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/cp-book-cover-640_2x",
+        "name": "cp-book-cover-640_2x.jpg",
+        "width": 811,
+        "height": 991,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/cp-book-cover-640_2x.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/cp-book-cover-640",
+        "name": "cp-book-cover-640.jpg",
+        "width": 640,
+        "height": 782,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/cp-book-cover-640.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/cp-book-cover-768_2x",
+        "name": "cp-book-cover-768_2x.jpg",
+        "width": 811,
+        "height": 991,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/cp-book-cover-768_2x.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/cp-book-cover-768",
+        "name": "cp-book-cover-768.jpg",
+        "width": 811,
+        "height": 991,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/cp-book-cover-768.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/patrick-smith-1024",
+        "name": "patrick-smith-1024.jpg",
+        "width": 910,
+        "height": 1110,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/patrick-smith-1024.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/patrick-smith-1280_2x",
+        "name": "patrick-smith-1280_2x.jpg",
+        "width": 910,
+        "height": 1110,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/patrick-smith-1280_2x.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/patrick-smith-1280",
+        "name": "patrick-smith-1280.jpg",
+        "width": 910,
+        "height": 1110,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/patrick-smith-1280.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/patrick-smith-320_2x",
+        "name": "patrick-smith-320_2x.jpg",
+        "width": 640,
+        "height": 781,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/patrick-smith-320_2x.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/patrick-smith-320",
+        "name": "patrick-smith-320.jpg",
+        "width": 320,
+        "height": 390,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/patrick-smith-320.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/patrick-smith-480_2x",
+        "name": "patrick-smith-480_2x.jpg",
+        "width": 910,
+        "height": 1110,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/patrick-smith-480_2x.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/patrick-smith-480",
+        "name": "patrick-smith-480.jpg",
+        "width": 480,
+        "height": 585,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/patrick-smith-480.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/patrick-smith-640_2x",
+        "name": "patrick-smith-640_2x.jpg",
+        "width": 910,
+        "height": 1110,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/patrick-smith-640_2x.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/patrick-smith-640",
+        "name": "patrick-smith-640.jpg",
+        "width": 640,
+        "height": 781,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/patrick-smith-640.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/patrick-smith-768_2x",
+        "name": "patrick-smith-768_2x.jpg",
+        "width": 910,
+        "height": 1110,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/patrick-smith-768_2x.jpg"
+      },
+      {
+        "breakpoint": "esources/assets/img/temp/pictures/patrick-smith-768",
+        "name": "patrick-smith-768.jpg",
+        "width": 910,
+        "height": 1110,
+        "folder": "pictures",
+        "path": "resources/assets/img/temp/pictures/patrick-smith-768.jpg"
+      }
+    ]
+  }
+]

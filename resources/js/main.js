@@ -2,11 +2,14 @@ import $ from 'jquery';
 $.noConflict();
 jQuery( document ).ready(function( $ ) {
     // Code that uses jQuery's $ can follow here.
-    $('.owl-carousel').owlCarousel({
-        loop:true,
+    $('.b-testimonials .owl-carousel').owlCarousel({
+        autoPlay:7000,
         items:1,
         margin:0,
-        nav:true,
-        navText:["next","prev"]
-    })
+        singleItem:true,
+        navigation:true,
+        navigationText : ["&laquo;","&raquo;"],
+        pagination: true,
+        stopOnHover: true
+    });
 });

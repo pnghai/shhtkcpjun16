@@ -1,8 +1,15 @@
 .b-testimonials {
+	position: relative;
+
 	color: #fff;
-	background: #161616;
+	background: #161616 url(../img/cockpit.jpg) no-repeat no-repeat center center;
+	-moz-background-size: cover;
+	background-size: cover;
+	@media #{$retina-screen} {
+		background-image: url(../img/cockpit@2x.jpg);
+	}
 	.row {
-		padding: 8.515625vw 0 8.12500vw;
+		padding: 18.1944444vh 0 16.5277778vh/*8.515625vw 0 8.12500vw*/;
 	}
 	h2 {
 		font-size: 30px;
@@ -23,13 +30,13 @@
 		text-shadow: -2px 3px 4.5px rgba(0, 0, 0, 0.75);
 	}
 	.amazon-logo {
-		img {
-			width: auto;
-			height: 250px;
-			margin: 0 auto;
-		}
+		width: auto;
+		height: 125px;
+		margin: 0 auto;
 	}
 	.reviewer {
+		font-size: 15px;
+
 		margin: 15px 0 25px;
 
 		text-transform: uppercase;
@@ -43,5 +50,51 @@
 	}
 	.nav-control {
 		margin-top: 26px;
+	}
+	.owl-theme .owl-controls {
+		.owl-pagination {
+			position: absolute;
+			bottom: 13vh;
+
+			width: 100%;
+
+			text-align: center;
+			.owl-page {
+				span {
+					width: 15px;
+					height: 15px;
+
+					background-color: #878787;
+				}
+				&.active {
+					span {
+						background-color: #fff;
+					}
+				}
+			}
+		}
+		.owl-buttons div {
+			font-size: 43px;
+
+			position: absolute;
+			top: 50%;
+
+			margin-top: -21.5px;
+
+			opacity: 1;
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+			border-radius: 0;
+			background: transparent;
+			text-shadow: 5px 3px 5px rgba(0, 0, 0, 0.93);
+
+			filter: Alpha(Opacity=100);
+			&.owl-prev {
+				left: 89px;
+			}
+			&.owl-next {
+				right: 89px;
+			}
+		}
 	}
 }

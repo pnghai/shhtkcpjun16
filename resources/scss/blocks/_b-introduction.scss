@@ -1,11 +1,20 @@
 .b-introduction {
-	padding: 108px 188.5px 92px 188.5px;
+	padding: 8.4375vw 0 7.1875vw;
 
 	background-color: #f3f3f3;
+	.btn-cta {
+		margin-top: 16px;
+	}
+	h1 {
+		margin-bottom: 17px;
+	}
 	ul {
 		margin: 0;
 	}
 	li {
 		list-style: disc inside none;
+	}
+	picture img {
+		max-width: 390px;
 	}
 }

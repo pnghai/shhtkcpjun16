@@ -1,10 +1,30 @@
 .b-featured {
 	position: relative;
 
-	height: 38.75vw;
+	height: 68.8194444vh; /*38.75vw;*/
 	min-height: 494px;
 
-	background: #f3f3f3;
+	background: #f3f3f3 url("../img/temp/pictures/bg-airplane-320.jpg") no-repeat no-repeat center center fixed;
+
+	perspective: 1px;
+	@media #{$retina-screen} {
+		/* Retina-specific stuff here */
+		background-image: url("../img/temp/pictures/bg-airplane-640_2x.jpg");
+	}
+	@media screen and (min-width: 768px) {
+		background-image: url("../img/temp/pictures/bg-airplane-640.jpg");
+		@media #{$retina-screen} {
+			background-image: url("../img/temp/pictures/bg-airplane-640_2x.jpg");
+		}
+	}
+	@media screen and (min-width: 1440px) {
+		background-image: url("../img/temp/pictures/bg-airplane-1280.jpg");
+		-webkit-background-size: cover;
+		background-size: cover;
+		@media #{$retina-screen} {
+			background-image: url("../img/temp/pictures/bg-airplane-1280_2x.jpg");
+		}
+	}
 	.container {
 		position: absolute;
 		top: 50%;
@@ -12,6 +32,8 @@
 
 		width: 100%;
 
+		-webkit-transform: translate(-50%, -50%); /* Safari */
+		-ms-transform: translate(-50%, -50%); /* IE 9 */
 		transform: translate(-50%, -50%);
 	}
 	h2 {

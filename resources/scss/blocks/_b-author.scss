@@ -1,4 +1,12 @@
 .b-author {
 	color: #fff;
 	background-color: #161616;
+	.btn-cta {
+		margin-top: 20px;
+	}
+	@media screen and (min-width:769px) {
+		h2 {
+			margin: 0 0 15px;
+		}
+	}
 }
