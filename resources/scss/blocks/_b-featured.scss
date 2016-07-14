@@ -4,7 +4,7 @@
 	height: 68.8194444vh; /*38.75vw;*/
 	min-height: 494px;
 
-	background: #f3f3f3 url("../img/temp/pictures/bg-airplane-320.jpg") no-repeat no-repeat center center fixed;
+	background: #f3f3f3 url("../img/temp/pictures/bg-airplane-320.jpg") no-repeat no-repeat center center;
 
 	perspective: 1px;
 	@media #{$retina-screen} {
@@ -12,15 +12,19 @@
 		background-image: url("../img/temp/pictures/bg-airplane-640_2x.jpg");
 	}
 	@media screen and (min-width: 768px) {
-		background-image: url("../img/temp/pictures/bg-airplane-640.jpg");
+		background-image: url("../img/temp/pictures/bg-airplane-768.jpg");
 		@media #{$retina-screen} {
-			background-image: url("../img/temp/pictures/bg-airplane-640_2x.jpg");
+			background-image: url("../img/temp/pictures/bg-airplane-768_2x.jpg");
+		}
+	}
+	@media screen and (min-width: 1024px) {
+		background-image: url("../img/temp/pictures/bg-airplane-1280.jpg");
+		@media #{$retina-screen} {
+			background-image: url("../img/temp/pictures/bg-airplane-1280_2x.jpg");
 		}
 	}
 	@media screen and (min-width: 1440px) {
-		background-image: url("../img/temp/pictures/bg-airplane-1280.jpg");
-		-webkit-background-size: cover;
-		background-size: cover;
+		background-image: url("../img/temp/pictures/bg-airplane-1024.jpg");
 		@media #{$retina-screen} {
 			background-image: url("../img/temp/pictures/bg-airplane-1280_2x.jpg");
 		}
