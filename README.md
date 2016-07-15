@@ -1,6 +1,6 @@
 # shh-tiki
 
-Current version="0.0.18"
+Current version="0.0.24"
 
 ## Requirements For Frontend Development
 
