@@ -89,11 +89,14 @@
 			text-shadow: 5px 3px 5px rgba(0, 0, 0, 0.93);
 
 			filter: Alpha(Opacity=100);
+			@media screen and (max-width:480px) {
+				display: none;
+			}
 			&.owl-prev {
-				left: 89px;
+				left: 6.953125vw;
 			}
 			&.owl-next {
-				right: 89px;
+				right: 6.953125vw;
 			}
 		}
 	}

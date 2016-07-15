@@ -8,6 +8,14 @@
 	padding: 17px 47px;
 
 	border: none;
+	@media screen and (max-width:768px) {
+		margin-bottom: 36px;
+	}
+}
+@media screen and (max-width: 768px) {
+	h2 {
+		margin-top: 36px!important;
+	}
 }
 .btn-dark {
 	color: #fff;
@@ -36,21 +44,23 @@
 .no-padding {
 	padding: 0;
 }
-.valign {
-	display: flex;
-	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-	display: -ms-flexbox;      /* TWEENER - IE 10 */
-	display: -webkit-flex;
-	flex-direction: row;
-	> [class*="col-sm"] {
+@media screen and (min-width:769px) {
+	.valign {
 		display: flex;
-		display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-		display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-		display: -ms-flexbox;      /* TWEENER - IE 10 */
+		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+		display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+		display: -ms-flexbox; /* TWEENER - IE 10 */
 		display: -webkit-flex;
+		flex-direction: row;
+		> [class*="col-sm"] {
+			display: flex;
+			display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+			display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+			display: -ms-flexbox; /* TWEENER - IE 10 */
+			display: -webkit-flex;
 
-		align-items: center;
-		justify-content: center;
+			align-items: center;
+			justify-content: center;
+		}
 	}
 }
