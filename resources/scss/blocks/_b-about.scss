@@ -3,9 +3,15 @@
 		img {
 			vertical-align: baseline;
 		}
+		@media (max-width:991px) {
+			padding: 30px 0 10px;
+		}
 	}
 	.series {
-		padding: 90px 0 23.5px;
+		padding: 10px 0 40px;
+		@media (min-width:992px) {
+			padding: 90px 0 23.5px;
+		}
 		img {
 			max-width: 100%;
 		}

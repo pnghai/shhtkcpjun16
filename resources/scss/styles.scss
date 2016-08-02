@@ -2,18 +2,9 @@
 Main File For Imports
 =================================================== */
 
-
-// Reset (veams-reset or veams-normalize)
-@import "../bower-components/veams-sass/resources/scss/veams-reset";
-
 // Global Variables and Settings
 @import "global/_vars";
 @import "../bower-components/veams-sass/resources/scss/veams";
-
-// You can choose your specific components
-
-// Icons
-@import "icons/**/*";
 
 // Mixins
 @import "utils/mixins/**/*";

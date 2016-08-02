@@ -44,7 +44,7 @@
 .no-padding {
 	padding: 0;
 }
-@media screen and (min-width:769px) {
+@media (min-width:768px) {
 	.valign {
 		display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
 		display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
