@@ -5,12 +5,11 @@
 	font-size: 17px;
 	font-weight: 600;
 
+	margin-right: 15px;
+	margin-left: 15px;
 	padding: 17px 47px;
 
 	border: none;
-	@media screen and (max-width:768px) {
-		margin-bottom: 36px;
-	}
 }
 @media screen and (max-width: 768px) {
 	h2 {

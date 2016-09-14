@@ -47,4 +47,9 @@
 			margin: 18px 0;
 		}
 	}
+	@media screen and (max-width:768px) {
+		.btn-cta {
+			margin-bottom: 15px;
+		}
+	}
 }

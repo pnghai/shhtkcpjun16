@@ -15,11 +15,32 @@
 		list-style: disc inside none;
 	}
 	picture {
+		display: block;
 		img {
 			max-width: 390px;
 			@media screen and (max-width: 480px) {
 				max-width: 250px;
 			}
+		}
+		@media screen and (max-width:768px) {
+			margin-top: 36px;
+
+			text-align: center;
+			img {
+				margin-left: -25px;
+			}
+		}
+	}
+	.center-justify {
+		text-align: center;
+	}
+	@media screen and (min-width:992px) {
+		.center-justify {
+			display: -webkit-flex; /* Safari */
+			display: flex;
+
+			-webkit-justify-content: center;
+			justify-content: center;
 		}
 	}
 }
